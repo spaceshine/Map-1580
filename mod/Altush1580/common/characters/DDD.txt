@@ -1,0 +1,156 @@
+characters = {
+	DDD_Matvey_D = {
+		name = "Матвей Дубровский"
+		portraits = {
+			civilian = {
+				large = "gfx\leaders\DDD\Matvey.dds"
+			}
+		}
+		country_leader = {
+			traits = { high_CHSV }
+			ideology = conservatism
+			expire="2025.1.1.1"
+			id = 700
+		}
+	}
+	DDD_Igor_MO = {
+		name = "Игорь Макаренко"
+		portraits = {
+			civilian = {
+				large = "gfx\leaders\DDD\Igor1.dds"
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			traits = { editor popular}
+			expire = "2025.1.1.1"
+			id = 700
+		}
+	}
+	DDD_Igor_MF = {
+		name = "Игорь Макаренко"
+		portraits = {
+			civilian = {
+				large = "gfx\leaders\DDD\Igor2.dds"
+				small = "gfx\interface\ideas\DDD_IgorM.dds"
+			}
+			army={
+				large = "gfx\leaders\DDD\DDD_IgorM_G.dds"
+				small = "gfx\interface\ideas\DDD_IgorM.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+			traits = { 
+			#editor 
+			popular 
+			#xp_fighter
+			}
+			expire = "2025.1.1.1"
+			id = 700
+		}
+		advisor = {
+			cost = 0
+			idea_token = DDD_Igor_MF
+			can_be_fired = no
+			slot = political_advisor
+			traits = {
+				Fascist_Demagogue
+				#editor
+				popular
+			}
+		}
+		field_marshal={
+			skill=7
+			attack_skill=8
+			defense_skill=5
+			planning_skill=5
+			logistics_skill=1
+			legacy_id=-1
+			traits = {
+				organisational_leader
+				inspirational_leader
+			}
+		}
+	}
+	DDD_Valera_P = {
+		name = "Валерий Пухляков"
+		portraits = {
+			civilian = {
+				large = "gfx\leaders\DDD\DDD_ValeraP.dds"
+			}
+		}
+		country_leader = {
+			traits = { shy }
+			ideology = despotism
+			expire="2025.1.1.1"
+			id = 700
+		}
+	}	
+	DDD_Oleg_T = {
+		name = "Олег Ткачук"
+		portraits = {
+			civilian = {
+				small = "gfx\interface\ideas\DDD_idea_OlegT.dds"
+			}
+			army = {
+				large = "gfx\leaders\DDD\DDD_OlegT_G.dds"
+				small = "gfx\interface\ideas\DDD_idea_OlegT.dds"
+			}
+		}
+		advisor {
+			cost = 200
+			idea_token = DDD_Oleg_T
+			slot = political_advisor
+			traits = {
+				adekvat
+				calm
+			}
+		}
+		field_marshal {
+			skill=5
+			attack_skill=3
+			defense_skill=5
+			planning_skill=5
+			logistics_skill=4
+			legacy_id=-1
+			traits = {
+				unyielding_defender
+				logistics_wizard
+			}
+		}
+	}
+	DDD_Gosha_Ch = {
+		name = "Георгий Червинский"
+		portraits = {
+			civilian = {
+				small = "gfx\interface\ideas\DDD_idea_GoshaCh.dds"
+			}
+			army = {
+				large = "gfx\leaders\DDD\DDD_GoshaCh_G.dds"
+				small = "gfx\interface\ideas\DDD_idea_GoshaCh.dds"
+			}
+		}
+		advisor {
+			cost = 100
+			idea_token = DDD_Gosha_Ch
+			slot = political_advisor
+			traits = {
+				clown
+				poet
+			}
+		}
+		corps_commander {
+			skill=5
+			attack_skill=7
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=5
+			legacy_id=-1
+			traits = {
+				urban_assault_specialist
+				fast_planner
+			}
+		}
+	}
+}

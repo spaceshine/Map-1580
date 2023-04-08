@@ -1,0 +1,124 @@
+characters = {
+		BBB_Kira_F = {
+		name = "Кира Федина"
+		portraits = {
+			civilian = {
+				large = "gfx\leaders\BBB\BBB_KiraF.dds"
+				small = "gfx\interface\ideas\BBB_idea_KiraF.dds"
+			}
+		}
+		country_leader = {
+			traits = { hard_balance irresponsible_orginiser pragmatic }
+			ideology = nazism
+			expire="2025.1.1.1"
+			id = 700
+		}
+		advisor = {
+			cost = 50
+			slot = political_advisor
+			traits = {
+				pragmatic
+				hard_balance
+			}
+		}
+	}
+		BBB_Egor_K = {
+		name = "Егор Крутиков"
+		portraits = {
+			civilian = {
+				large = "gfx\leaders\BBB\BBB_EgorK.dds"
+				small = "gfx\interface\ideas\BBB_idea_EgorK.dds"
+			}
+		}
+		country_leader = {
+			traits = { editor allgood}
+			ideology = stalinism
+			expire="2025.1.1.1"
+			id = 700
+		}
+		advisor = {
+			cost = 150
+			slot = political_advisor
+			traits = {
+				#editor
+				Communist_Revolutionary
+				#allgood
+			}
+		}
+	}
+		BBB_Vitalik_P = {
+		name = "Виталий Поляков"
+		portraits = {
+			civilian = {
+				large = "gfx\leaders\BBB\BBB_VitalikP.dds"
+			}
+		}
+		country_leader = {
+			traits = { otchim_kobyak impuls }
+			ideology = despotism
+			expire="2025.1.1.1"
+			id = 700
+		}
+	}
+			BBB_Jora_A = {
+		name = "Георгий «Егор» Архипов"
+		portraits = {
+			civilian = {
+				large = "gfx\leaders\BBB\BBB_JoraA.dds"
+			}
+		}
+		country_leader = {
+			traits = { mister_netupoy }
+			ideology = conservatism
+			expire="2025.1.1.1"
+			id = 600
+		}
+	}
+				BBB_Ilya_T = {
+		name = "Илья Трушин"
+		portraits = {
+			civilian = {
+				large = "gfx\leaders\BBB\ВВВ_IlyaT.dds"
+			}
+		}
+		country_leader = {
+			traits = { political_singer trushnya }
+			ideology = liberalism
+			expire="2025.1.1.1"
+			id = 700
+		}
+	}
+	BBB_Albert = {
+		name = "Альберт Рудинский"
+		portraits = {
+			civilian = {
+				small = "gfx\interface\ideas\BBB_idea_Albert.dds"
+			}
+			army = {
+				small = "gfx\interface\ideas\BBB_idea_Albert.dds"
+				large = "gfx\leaders\BBB\BBB_Albert_G.dds"
+			}
+		}
+		advisor = {
+			cost = 0
+			idea_token = BBB_Albert
+			can_be_fired = no
+			slot = political_advisor
+			traits = {
+				retired_g
+			}
+		}
+		corps_commander {
+			skill=6
+			attack_skill=5
+			defense_skill=5
+			planning_skill=7
+			logistics_skill=3
+			legacy_id=-1
+			traits = {
+				ambusher
+				hill_fighter
+			}
+		}
+	}
+}

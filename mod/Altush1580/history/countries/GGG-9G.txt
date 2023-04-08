@@ -1,0 +1,31 @@
+capital = 188 ##Наша столица
+
+oob = "GGG_1936" ##GEG - Тег, заменить
+
+set_research_slots = 5 #Количество ячеек исследования
+
+# Технологии, какие будут открыты при старте
+set_technology = {
+
+}
+set_stability = 0.75 
+set_war_support = 0.3
+recruit_character = GGG_Slava_K
+set_politics = {
+	ruling_party = democratic ##Рулевая партия
+	last_election = "2021.9.17" ##Последние выборы (если есть)
+	election_frequency = 12 ##Через сколько проводят выборы
+	elections_allowed = yes ##Есть ли выборы
+}
+set_popularities = {
+	democratic = 60  ##Демократия
+	neutrality = 0 ##Нейтралитет
+	communism = 10 ##Коммунизм
+	fascism = 30 ##Фашизм
+}
+
+	##За какую Идеологию (входит в types у коммунистов)
+    #conservatism, liberalism и socialism - демократия
+    #marxism, leninism, stalinism, anti_revisionism, anarchist_communism - коммунизм
+    #nazism, fascism_ideology, falangism, rexism - национализм 
+    #despotism, oligarchism, moderatism и moderatism - нейтралитет 

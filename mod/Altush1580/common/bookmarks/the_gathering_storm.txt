@@ -1,0 +1,34 @@
+bookmarks = {
+	bookmark = {
+		name = "1 сентября 2022 года"
+		desc = "GATHERING_STORM_DESC"
+		date = 2022.9.1.9
+		picture = "gfx\interface\phon(k)sArhipovym.dds"
+		default_country = "DDD"
+		default = yes
+		"DDD"={
+			history = "DDD_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				DDD_Igor_MF
+			}
+			focuses = {
+			
+			}
+		}
+		"BBB"={
+			history = "BBB_GATHERING_STORM_DECS"
+			ideology = democratic
+			ideas = {
+			
+			}
+			focuses = {
+			
+			}
+		}
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

@@ -1,0 +1,16 @@
+characters = {
+	GGG_Slava_K = {
+	name = "Слава Кварацхелия"
+		portraits = {
+			civilian = {
+				large = "gfx\leaders\GGG\GGG_SlavaK.dds"
+			}
+		}
+		country_leader = {
+			traits = { pragmatic }
+			ideology = conservatism
+			expire="2025.1.1.1"
+			id = 700
+		}	
+	}
+}

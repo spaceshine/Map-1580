@@ -1,0 +1,38 @@
+capital = 763 ##Наша столица
+
+oob = "BBB_1936" ##GEG - Тег, заменить
+
+set_research_slots = 5 #Количество ячеек исследования
+
+# Технологии, какие будут открыты при старте
+set_technology = {
+
+}
+recruit_character = BBB_Ilya_T
+recruit_character = BBB_Kira_F
+recruit_character = BBB_Egor_K
+recruit_character = BBB_Vitalik_P
+recruit_character = BBB_Jora_A
+recruit_character = BBB_Albert
+
+set_politics = {
+	ruling_party = democratic ##Рулевая партия
+	last_election = "2021.9.17" ##Последние выборы (если есть)
+	election_frequency = 12 ##Через сколько проводят выборы
+	elections_allowed = yes ##Есть ли выборы
+}
+add_ideas = {	
+	BBB_Albert
+}
+set_popularities = {
+	democratic = 30  ##Демократия
+	neutrality = 30 ##Нейтралитет
+	communism = 20 ##Коммунизм
+	fascism = 20 ##Фашизм
+}
+
+	##За какую Идеологию (входит в types у коммунистов)
+    #conservatism, liberalism и socialism - демократия
+    #marxism, leninism, stalinism, anti_revisionism, anarchist_communism - коммунизм
+    #nazism, fascism_ideology, falangism, rexism - национализм 
+    #despotism, oligarchism, moderatism и moderatism - нейтралитет 
